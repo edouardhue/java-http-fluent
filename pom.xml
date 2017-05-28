@@ -11,7 +11,7 @@
 
     <groupId>in.yuvi</groupId>
     <artifactId>http.fluent</artifactId>
-    <version>1.5_comeon-SNAPSHOT</version>
+    <version>1.5_comeon</version>
     <packaging>jar</packaging>
 
     <name>HTTP Fluent Builder</name>
@@ -75,7 +75,7 @@
             <version>4.5.3</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
