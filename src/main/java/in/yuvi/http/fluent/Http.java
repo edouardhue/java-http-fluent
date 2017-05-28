@@ -633,7 +633,6 @@ public final class Http {
             this.url = url;
         }
 
-        @Override
         public Boolean handleResponse(final HttpResponse response) throws IOException {
             final int statusCode = response.getStatusLine().getStatusCode();
 

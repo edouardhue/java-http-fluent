@@ -10,7 +10,7 @@
 
     <groupId>in.yuvi</groupId>
     <artifactId>http.fluent</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.5_comeon-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>HTTP Fluent Builder</name>
@@ -36,7 +36,11 @@
             <id>mastacode</id>
             <name>Thomas Dudek</name>
         </developer>
-
+        <developer>
+            <id>edouardhue</id>
+            <name>Édouard Hue</name>
+            <email>edouard.hue@gmail.com</email>
+        </developer>
     </developers>
 
     <scm>
@@ -61,13 +65,13 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.2.2</version>
+            <version>4.5.3</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
-            <version>4.2.2</version>
+            <version>4.5.3</version>
         </dependency>
     </dependencies>
     <build>
